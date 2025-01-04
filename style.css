@@ -5,6 +5,10 @@ body {
     text-align: center;
     padding: 20px;
     margin: 0;
+    background-image: url('resim25.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -36,7 +40,6 @@ h1 {
 }
 
 p {
-    font-size: 18px;
     line-height: 1.6;
     color: #c1c1c1;
 }
@@ -81,8 +84,7 @@ label {
     color: #333;
 }
 
-input,
-textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -107,13 +109,6 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #e76621;
-}
-
-body {
-    background-image: url('resim25.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .message-box {
@@ -144,7 +139,6 @@ body {
 }
 
 .contact-info p {
-    font-size: 18px;
     color: #555;
 }
 
@@ -165,8 +159,6 @@ body {
 }
 
 .about-section p {
-    font-size: 18px;
-    color: #fff;
     margin-top: 20px;
     line-height: 1.6;
 }
@@ -211,8 +203,8 @@ body {
 }
 
 .services-section h2 {
-    font-size: 32px;
     color: #e9edf1;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -222,7 +214,6 @@ body {
 }
 
 .services-section li {
-    font-size: 18px;
     color: #e7dada;
     margin: 10px 0;
     text-align: left;
