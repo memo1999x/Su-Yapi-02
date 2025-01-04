@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SU YAPI</title>
-    <link rel="stylesheet" href="style.css"> <!-- CSS dosyasını bağladık -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Su Yapi Emlak & Insaat Sanayi</h1>
+
     <div class="container">
-        <h1>Su Yapi Emlak & Insaat Sanayi</h1>
+        <h1>Su Yapi</h1>
         <p>Güvenle Başlayan Yolculuk, Kusursuz Yapılarla Sonuçlanır.</p>
         <img src="resim22.webp" alt="Bu bir resimdir" width="420">
     </div>
@@ -34,7 +36,9 @@
     <div class="about-section">
         <h2>Hakkımızda</h2>
         <p>Sağlam temeller üzerine inşa edilen bir başarı hikayesi…</p>
-        <p>Yaklaşık 15 yıl önce, güçlü bir vizyon ve sağlam bir iş ahlakıyla başladığımız bu yolda, bugün Adıyaman başta olmak üzere Türkiye’nin birçok bölgesinde güvenle tercih ediliyoruz. Yılların birikimiyle, büyük şantiyelerden bireysel projelere kadar geniş bir yelpazede hizmet verdik. Her bir projemizde kaliteyi ve müşteri memnuniyetini öncelik haline getirerek güvendiğiniz bir marka olduk.</p>
+        <p>Yaklaşık 15 yıl önce, güçlü bir vizyon ve sağlam bir iş ahlakıyla başladığımız bu yolda, bugün Adıyaman başta olmak üzere Türkiye’nin birçok bölgesinde güvenle tercih edilen bir firma olduk.</p>
+        <p>Yılların birikimiyle, büyük şantiyelerden bireysel projelere kadar geniş bir yelpazede hizmet verdik. Her bir projemizde kaliteyi ve müşteri memnuniyetini öncelik haline getirerek güven kazandık.</p>
+
         <h3>Farkımız Nedir?</h3>
         <ul>
             <li><strong>Tecrübe ve Güven:</strong> Büyük projelerde edindiğimiz deneyimle, her ölçekteki işi en üst düzey profesyonellikle yönetiyoruz.</li>
@@ -42,7 +46,9 @@
             <li><strong>Geniş Hizmet Alanı:</strong> Adıyaman merkezli olmamıza rağmen, diğer şehirlerde de birçok başarılı projeye imza attık ve yeni projeler için her zaman hazırız.</li>
             <li><strong>Aile Bağlarıyla Güçlü Bir Yönetim:</strong> Aile değerlerine dayalı yapımızla, işimizde dürüstlük ve samimiyeti ön planda tutuyoruz.</li>
         </ul>
-        <p>Geçmişimizden aldığımız güç ve geleceğe olan inancımızla, sektörde uzun yıllar boyunca hizmet vermeye devam edeceğiz. Her projeyi “en iyi işimiz” olarak görerek, müşterilerimize teşekkür ediyoruz ve yeni projelerinizde yanınızda olmaktan büyük bir memnuniyet duyarız.</p>
+
+        <p>Geçmişimizden aldığımız güç ve geleceğe olan inancımızla, sektörde uzun yıllar boyunca hizmet vermeye devam edeceğiz. Her projeyi “en iyi işimiz” olarak görerek, müşterilerimize en yüksek kalitede hizmet sunmaya devam edeceğiz.</p>
+        <p>Bizimle çalışmayı tercih eden tüm müşterilerimize teşekkür ediyoruz ve yeni projelerinizde yanınızda olmaktan büyük bir memnuniyet duyarız.</p>
         <p><em>“Geleceğinizi bizimle inşa edin!”</em></p>
     </div>
 
@@ -73,10 +79,29 @@
             <p><strong>Telefon:</strong> +90 552 001 3449</p>
             <p><strong>E-posta:</strong> Kilinchuseyinhuseyin@gmail.com</p>
         </div>
+
         <div class="contact-buttons">
-            <button onclick="window.location.href='mailto:Klinchuseyinhuseyin@gmail.com'">E-posta Gönder</button>
+            <button onclick="window.location.href='mailto:Kilinchuseyinhuseyin@gmail.com'">E-posta Gönder</button>
             <button onclick="window.location.href='tel:+905520013449'">Telefonla Ara</button>
         </div>
     </div>
+
+    <script>
+        // Formu seçiyoruz
+        const form = document.querySelector('form');
+
+        // Form gönderildiğinde yapılacak işlem
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Sayfanın yenilenmesini engelle
+
+            // Formu gizleyelim
+            form.style.display = 'none';
+
+            // Teşekkür mesajı ekleyelim
+            const thankYouMessage = document.createElement('div');
+            thankYouMessage.innerHTML = '<h2>Teşekkürler! Mesajınızı aldık.</h2><p>En kısa sürede sizinle iletişime geçeceğiz.</p>';
+            document.body.appendChild(thankYouMessage);
+        });
+    </script>
 </body>
 </html>
