@@ -1,0 +1,347 @@
+body {
+    body {
+        background: linear-gradient(to right, #6773a5, #e7e7e7);
+        /* Şık bir degrade arka plan */
+        font-family: Arial, sans-serif;
+        /* Yazı tipi */
+        color: #f3f2f2;
+        /* Yazı rengi */
+        text-align: center;
+        /* Metni ortala */
+        padding: 20px;
+        margin: 0;
+    }
+
+
+    h1 {
+        color: #e3e3e3;
+        /* Başlık rengi */
+    }
+
+    p {
+        font-size: 18px;
+        /* Paragraf yazı boyutu */
+    }
+
+    img {
+        border-radius: 10px;
+        /* Resme yuvarlak köşeler */
+        box-shadow: 2px 2px 10px rgba(37, 15, 15, 0.1);
+        /* Resme gölge ekle */
+    }
+
+    .container {
+        width: 80%;
+        /* Kutu genişliği */
+        max-width: 800px;
+        /* Maksimum genişlik */
+        margin: 0 auto;
+        /* Sayfanin en altinda */
+        background-color: rgba(40, 66, 91, 0.59);
+        /* GRI arka plan */
+        padding: 20px;
+        /* İçerik kutusunun etrafında boşluk */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Gölgeleme */
+        border-radius: 10px;
+        /* Yuvarlak köşeler */
+    }
+
+    h1 {
+        color: #777777;
+        /* Başlık rengini yeşil yap */
+        font-size: 36px;
+        /* Başlık boyutunu büyüt */
+    }
+
+    p {
+        font-size: 18px;
+        /* Paragraf yazı boyutunu büyüt */
+        line-height: 1.6;
+        /* Satır aralığını artır */
+        color: #c1c1c1;
+        /* Yazı rengini daha açık gri yap */
+    }
+
+    a {
+        text-decoration: none;
+        /* Alt çizgiyi kaldır */
+        color: #8512c4;
+        /* Link rengini yeşil yap */
+        font-weight: bold;
+        /* Linki kalın yap */
+    }
+
+    a:hover {
+        color: #4b336167;
+        /* Linke tıklandığında rengi değiştir */
+    }
+
+    .btn {
+        background-color: #a1848e;
+        /* Buton rengi yeşil */
+        color: white;
+        /* Yazı rengi beyaz */
+        padding: 15px 32px;
+        /* Buton içi boşluk */
+        text-align: center;
+        /* Yazıyı ortala */
+        text-decoration: none;
+        /* Alt çizgiyi kaldır */
+        display: inline-block;
+        /* Butonu satır içinde tut */
+        font-size: 16px;
+        /* Yazı boyutu */
+        margin: 10px 2px;
+        /* Butonlar arasında boşluk */
+        border-radius: 5px;
+        /* Butona yuvarlak köşe */
+        cursor: pointer;
+        /* Fareyi üzerine getirdiğinde işaretçi değişir */
+    }
+
+    .btn:hover {
+        background-color: #653083;
+        /* Buton üzerine gelince rengini koyulaştır */
+    }
+
+    form {
+        background-color: #000000;
+        /* Form arka planı beyaz */
+        padding: 20px;
+        /* İçeride boşluk bırak */
+        border-radius: 10px;
+        /* Yuvarlak köşeler */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Gölgeleme */
+        margin-top: 20px;
+        /* Formun üst kısmına boşluk ekle */
+    }
+}
+
+label {
+    font-size: 18px;
+    /* Etiket yazı boyutu */
+    color: #333;
+    /* Etiket yazı rengi */
+}
+
+input,
+textarea {
+    width: 100%;
+    /* Genişlik tam ekran */
+    padding: 10px;
+    /* İçeride boşluk */
+    margin-top: 5px;
+    /* Üstten boşluk */
+    margin-bottom: 15px;
+    /* Alttan boşluk */
+    border: 1px solid #ccc;
+    /* Kenarlık rengi */
+    border-radius: 5px;
+    /* Yuvarlak köşeler */
+}
+
+textarea {
+    resize: vertical;
+    /* Yükseklik değiştirilebilir */
+}
+
+button[type="submit"] {
+    background-color: #71430e;
+    /* Buton rengi yeşil */
+    color: white;
+    /* Yazı rengi beyaz */
+    padding: 12px 20px;
+    /* Buton içi boşluk */
+    text-align: center;
+    /* Metni ortala */
+    border: none;
+    /* Kenarlık yok */
+    border-radius: 5px;
+    /* Yuvarlak köşeler */
+    cursor: pointer;
+    /* Fareyi üzerine getirdiğinde işaretçi değişir */
+}
+
+button[type="submit"]:hover {
+    background-color: #e76621;
+    /* Buton üzerine gelince rengi değişir */
+}
+}body {
+    background-image: url('resim25.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+body {
+    background-image: url('resim25.jpg');
+    /* Arka plan resmi */
+    background-size: cover;
+    /* Resmi tüm ekranı kaplayacak şekilde ayarla */
+    background-position: center;
+    /* Resmi ortala */
+    background-attachment: fixed;
+    /* Sayfa kaydırıldığında resim sabit kalsın */
+    color: #1c1a1a;
+    /* Yazı rengi beyaz olsun, böylece resimle kontrast olur */
+}
+
+.message-box {
+    position: fixed;
+    bottom: 0;
+    /* Sayfanın alt kısmına yapışacak */
+    left: 0;
+    /* Sayfanın sol kısmına hizalanacak */
+    width: 100%;
+    /* Tam genişlik */
+    background-color: #608789;
+    /* Koyu renk arka plan */
+    color: rgb(57, 40, 1);
+    /* Yazı rengi beyaz */
+    text-align: center;
+    /* Yazıyı ortala */
+    padding: 10px;
+    /* İç boşluk */
+    font-size: 18px;
+    /* Yazı boyutu */
+}
+
+.contact-info {
+    background-color: #000000;
+    /* Açık gri arka plan */
+    padding: 20px;
+    /* İç boşluk */
+    margin-top: 40px;
+    /* Üstten boşluk */
+    border-radius: 8px;
+    /* Yuvarlak köşeler */
+    width: 80%;
+    /* Genişlik */
+    margin-left: auto;
+    /* Ortalamak için */
+    margin-right: auto;
+    /* Ortalamak için */
+}
+
+.contact-info h2 {
+    text-align: center;
+    /* Başlığı ortala */
+    color: #333;
+    /* Başlık rengi */
+}
+
+.contact-info p {
+    font-size: 18px;
+    /* Yazı boyutu */
+    color: #555;
+    /* Yazı rengi */
+}
+
+/* Hakkımızda Kısmı */
+.about-section {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Şeffaf siyah arka plan */
+    color: #fff;
+    /* Yazı rengi beyaz */
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Hafif gölge efekti */
+}
+
+.about-section h2 {
+    font-size: 32px;
+    color: #fff;
+    /* Başlık rengi beyaz */
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #fff;
+    /* Paragraf yazısı beyaz */
+    margin-top: 20px;
+    line-height: 1.6;
+    /* Satır aralığını artırarak okunabilirliği artırdık */
+}
+
+.gallery-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Görseller arasında boşluk */
+}
+
+.gallery img {
+    width: 200px;
+    /* Görsellerin genişliğini kısıtladık */
+    height: 150px;
+    /* Görsellerin yüksekliğini sabitledik */
+    object-fit: cover;
+    /* Görsellerin boyutlarını orantılı şekilde düzenler */
+    border-radius: 8px;
+    /* Yuvarlak köşeler */
+    transition: transform 0.3s ease;
+    /* Hover efekti için geçiş süresi */
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    /* Hover efektinde görseli büyütür */
+}/* Hizmet Verdiğimiz Alanlar */
+.services-section {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.3); /* Hafif gri arka plan */
+    color: #333; /* Yazı rengi koyu gri */
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.services-section h2 {
+    font-size: 32px;
+    color: #e9edf1; /* Başlık rengi koyu mavi */
+    font-weight: bold;
+}
+
+.services-section ul {
+    list-style-type: none; /* Liste işaretlerini kaldır */
+    padding: 0;
+}
+
+.services-section li {
+    font-size: 18px;
+    color: #e7dada; /* Liste öğeleri için gri renk */
+    margin: 10px 0; /* Her bir öğe arasında 10px boşluk bırak */
+    text-align: left; /* Metni sola hizala */
+    padding-left: 20px; /* Soldan boşluk bırak */
+    position: relative;
+}
+
+.services-section li::before {
+    content: "•"; /* Liste öğelerine nokta ekler */
+    position: absolute;
+    left: 0;
+    color: #03131e; /* Nokta rengini mavi yapar */
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/V
