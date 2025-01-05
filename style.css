@@ -24,18 +24,10 @@ img {
     box-shadow: 2px 2px 10px rgba(37, 15, 15, 0.1);
 }
 
-.container {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(40, 66, 91, 0.59);
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
+
 
 h1 {
-    color: #777777;
+    color: #ddd8d8;
     font-size: 36px;
 }
 
@@ -229,4 +221,11 @@ button[type="submit"]:hover {
     font-size: 20px;
     top: 50%;
     transform: translateY(-50%);
+}
+.site-title {
+    font-family: 'Poppins', sans-serif; /* Şık bir yazı tipi kullan */
+    font-size: 36px; /* Başlık boyutu */
+    color: #ffffff; /* Beyaz renk */
+    text-align: left; /* Sola hizala */
+    margin-left: 20px; /* Soldan boşluk */
 }
